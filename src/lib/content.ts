@@ -32,6 +32,7 @@ export const defaultProjects: Project[] = [
   { slug: "nutrella-cookie-tin", title: "Nutrella Cookie Tin", category: "Sticker", description: "Round cookie tin sticker for Veena's Creative Pure Veg Kitchen.", image: "/work/w02.webp", ratio: "1/1", year: "2025" },
   { slug: "design-06", title: "Event Poster", category: "Poster design", description: "Event promotion poster design.", image: "/work/w06.jpeg", ratio: "640/960", year: "2025" },
   { slug: "design-07", title: "Brand Identity", category: "Branding", description: "Brand identity and logo package.", image: "/work/w07.jpeg", ratio: "640/960", year: "2025" },
+  { slug: "hg-design-and-printing", title: "HG Design and Printing", category: "Logo", description: "HG Designing and Printing official logo.", image: "/work/w-hg-design-and-printing-1793764689690.jpeg", ratio: "3223/1394", year: "2026" },
 ];
 
 /**
