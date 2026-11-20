@@ -63,9 +63,9 @@ export const process = [
 
 export const stats = [
   { value: 500, suffix: "+", label: "Designs delivered" },
-  { value: 3, suffix: "+", label: "Years of experience" },
+  { value: 7, suffix: "+", label: "Years of experience" },
   { value: 200, suffix: "+", label: "Happy clients" },
-  { value: 50, suffix: "+", label: "Repeat customers" },
+  { value: 150, suffix: "+", label: "Returning customers" },
 ];
 
 export const testimonials = [

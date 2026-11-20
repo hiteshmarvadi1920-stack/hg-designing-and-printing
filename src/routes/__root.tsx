@@ -85,8 +85,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "HG Designing and Printing" },
-      { name: "description", content: "Design and print studio in Vadodara." },
+      { title: "HG Designing and Printing — Posters, Banners & Visiting Cards in Vadodara" },
+      { name: "description", content: "HG Designing and Printing is a creative design and print studio in Vadodara, Gujarat. We create posters, banners, visiting cards, stickers, packaging, and more — 7+ years of experience, 500+ designs delivered." },
+      { name: "keywords", content: "graphic design Vadodara, printing services Vadodara, poster design, banner printing, visiting card design, sticker printing, packaging design, HG Designing, Gujarat print shop" },
+      { name: "author", content: "HG Designing and Printing" },
+      { name: "robots", content: "index, follow" },
+      { property: "og:title", content: "HG Designing and Printing — Posters, Banners & Visiting Cards in Vadodara" },
+      { property: "og:description", content: "Creative design and print studio in Vadodara, Gujarat. Posters, banners, visiting cards, stickers, packaging and more." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://hg-designing-and-printing.vercel.app" },
+      { property: "og:image", content: "https://hg-designing-and-printing.vercel.app/work/w08.jpeg" },
+      { property: "og:locale", content: "en_IN" },
+      { property: "og:site_name", content: "HG Designing and Printing" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "HG Designing and Printing — Vadodara" },
+      { name: "twitter:description", content: "Creative design and print studio in Vadodara. Posters, banners, visiting cards & more." },
+      { name: "twitter:image", content: "https://hg-designing-and-printing.vercel.app/work/w08.jpeg" },
+      { name: "geo.region", content: "IN-GJ" },
+      { name: "geo.placename", content: "Vadodara" },
     ],
     links: [
       {
@@ -94,9 +110,35 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "canonical", href: "https://hg-designing-and-printing.vercel.app" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@1,700&family=Space+Grotesk:wght@400;500;700&family=Space+Mono&display=swap" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "HG Designing and Printing",
+          "description": "Creative design and print studio in Vadodara, Gujarat. Posters, banners, visiting cards, stickers, packaging and more.",
+          "url": "https://hg-designing-and-printing.vercel.app",
+          "image": "https://hg-designing-and-printing.vercel.app/work/w08.jpeg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vadodara",
+            "addressRegion": "Gujarat",
+            "addressCountry": "IN"
+          },
+          "areaServed": "Vadodara",
+          "priceRange": "₹",
+          "sameAs": [
+            "https://www.instagram.com/hg_designing_and_printing",
+            "https://www.facebook.com/hgdesigningandprinting"
+          ]
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,
