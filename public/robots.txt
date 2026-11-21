@@ -16,4 +16,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 
-Sitemap: https://hg-designing-and-printing.vercel.app/sitemap.xml
+Sitemap: https://hgdesigningandprinting.in/sitemap.xml
